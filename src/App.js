@@ -24,13 +24,14 @@ class App extends React.Component {
   render() {
     const { advice } = this.state;
     return (
-      <div className="app">
-        <div className="card">
-          <h1 className="heading">{advice}</h1>
-          <button className="button" onClick={this.fetchAdvice}>
-            <span>GIVE ME ADVICE!</span>
-          </button>
+      <div className="app flex__center app__wrapper">
+        <div className="app-card flex__center">
+          <h1 className="app-card__heading flex__center">{advice}</h1>
         </div>
+
+        <button className="button flex__center" onClick={this.fetchAdvice}>
+          <span>GIVE ME ADVICE!</span>
+        </button>
       </div>
     );
   }
