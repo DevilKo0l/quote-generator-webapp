@@ -1,6 +1,6 @@
 <div align="center"> 
 
-  <h3 align="center">Quote Generator Website</h3>
+  <h3 align="center">Quote Generator Web Apolication</h3>
 
   <p align="center">
     A website generate useful quote and advice for you
@@ -15,7 +15,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This website will give you some useful advices. I built this project to refresh my knowledge about Api
+Making beautiful quotes just became easy! Try it yourself to see what is your favorite quote. I built this project to refresh my knowledge about API
 
 ### Built With
 The technologies I use in this project inclues:
@@ -37,11 +37,11 @@ You need to install [nodejs](https://nodejs.org/en/)
    ```sh
    git clone https://github.com/DevilKo0l/quote-generator-webapp.git
    ```
-2. Install npm in gourmet-restaurant-web folder
+2. Install npm in quote-generator-webapp folder
    ```
    npm install
    ```
-3. Run the project `npm start` in frontend_react folder
+3. Run the project
    ```
    npm start
    ```
