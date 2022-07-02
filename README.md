@@ -8,7 +8,7 @@
     <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://nat-quote-generator.vercel.app/">View Demo</a>   
+    <a href="https://nat-quote-generator.netlify.app/">View Demo</a>   
     
   </p>
 </div>
