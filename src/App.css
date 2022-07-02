@@ -27,7 +27,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.app-card {
+.card {
   background-color: whitesmoke;
   width: 40%;
   height: 30%;
@@ -38,9 +38,10 @@ body {
   box-shadow: 10px 10px;
 }
 
-.app-card__heading {
+.heading {
   height: 580px;
   font-family: "Playfair Display", serif;
+  font-size: 40px;
 }
 
 .button {
@@ -113,6 +114,9 @@ body {
 @media only screen and (max-width: 600px) {
   .card {
     width: 80%;
-    height: 30%;
+    height: 40%;
+  }
+  .heading {
+    font-size: 30px;
   }
 }

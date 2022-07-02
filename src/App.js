@@ -25,8 +25,8 @@ class App extends React.Component {
     const { advice } = this.state;
     return (
       <div className="app flex__center app__wrapper">
-        <div className="app-card flex__center">
-          <h1 className="app-card__heading flex__center">{advice}</h1>
+        <div className="card flex__center">
+          <h1 className="heading flex__center">{advice}</h1>
         </div>
 
         <button className="button flex__center" onClick={this.fetchAdvice}>
